@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
 
-function App() {
-  return(
-    <>
-      <h1 className='text-red-800 text-center'>Hello</h1>
-    </>
+const App = () => {
+  return (
+   <main>
+      <h1 className='text-5xl text-violet-300 font-bold  font-robert-medium'>Welcome to Zentry</h1>
+   </main>
   )
 }
 
